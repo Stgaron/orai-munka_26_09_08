@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;   
+    list-style-type: none; 
+}
+
+article{
+    display: grid;
+    grid-template-columns: 15vw 15vw;
+    justify-content: center;
+    
+    
+}
+section{
+    border: 2px solid blue;
+    background-color: aqua;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    text-align: center;
+    
+}
+b{
+    color: blue;
+    margin: 10px;
+}
+h2{
+    margin: 2vw;
+}
+li{
+    margin-right: 1vw;
+}
+@media screen and (max-width:800px) {
+    article{
+        grid-template-columns: 30vw;
+    }
+    li{
+        margin-right: 5vw;
+    }
+    
+}
